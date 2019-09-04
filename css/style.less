@@ -1,0 +1,199 @@
+@import "palette.less";
+@import url("https://fonts.googleapis.com/css?family=Ropa+Sans:400,400i&display=swap");
+@import url("https://use.typekit.net/waw0nhd.css");
+
+body {
+  font-size: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h1,
+  h2 {
+    color: @black;
+    font-family: rosewood-std-fill, serif;
+    font-size: 3rem;
+    padding: 1rem 0 1.5rem;
+  }
+
+  h2 {
+    color: @brown;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  h3,
+  p,
+  a,
+  li,
+  figcaption {
+    color: @dark;
+    font-family: "Ropa Sans", serif;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem 1.5rem;
+    text-align: center;
+  }
+
+  hr.break {
+    border: 0;
+    height: 2px;
+    background: @gold;
+    background-image: -webkit-gradient(linear,
+        left top,
+        right top,
+        from(#fff),
+        color-stop(@gold),
+        to(#fff));
+    background-image: linear-gradient(to right, #fff, @gold, #fff);
+    width: 80vw;
+    margin: 2rem;
+  }
+
+  // Header
+  header {
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(rgba(153, 120, 43, 0.3)),
+        to(rgba(153, 120, 43, 0.8))),
+      url(../images/honeycomb-light.jpg);
+    background: linear-gradient(0deg,
+        rgba(153, 120, 43, 0.3),
+        rgba(153, 120, 43, 0.8)),
+      url(../images/honeycomb-light.jpg);
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+    img {
+      padding: 2rem;
+      width: 75%;
+    }
+  }
+
+  // Main
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 2rem 1.5rem 0;
+
+    img.honey-logo {
+      height: auto;
+      max-width: 80vw;
+    }
+
+    img.honey-sticks {
+      height: auto;
+      max-width: 100vw;
+    }
+
+    p {
+      font-size: 1.2rem;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      -ms-flex-item-align: start;
+      align-self: flex-start;
+      padding: 0.5rem 10% 1rem;
+
+      li {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  // Footer
+  footer {
+    background: @gold;
+    padding: 1rem 1rem 2rem;
+    text-align: center;
+
+    .social {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+
+    .social img {
+      width: 60px;
+      height: auto;
+    }
+
+    .social p {
+      font-size: 1.5rem;
+    }
+    p {
+      line-height: 1.5;
+    }
+
+    a {
+      color: @dark;
+    }
+
+    a:hover {
+      color: @brown;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    margin: 3rem;
+  }
+}
