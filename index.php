@@ -10,12 +10,12 @@
   <link href="css/reset.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <!-- Facebook Open Graph markup -->
-  <meta property="og:url" content="https://.com">
+  <meta property="og:url" content="https://helperhoney.com">
   <meta property="og:site_name" content="Helper Honey">
   <meta property="og:title" content="Helper Honey | raw honey sticks + organically grown full spectrum hemp">
   <meta property="og:description" content="Organically grown and cultivated in Oregon's Willamette Valley">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https:// /images/hh-open-grapn.png">
+  <meta property="og:image" content="https://helperhoney.com/images/hh-open-graph.png">
   <meta property="og:locale" content="en_US">
 </head>
 
@@ -29,12 +29,12 @@
     <section class="first-O">
       <img src="images/beestie-circle.png" alt="Helper Honey logo" class="honey-logo">
       <h1>Helper Honey</h1>
-      <h2>raw honey sticks &amp; organically grown hemp</h2>
+      <h2>raw honey sticks &amp;<br/>organically grown hemp</h2>
     </section>
     <!-- end S1. -->
 
     <section class="second-O">
-      <p>The healing powers of Hemp and Honey can:</p>
+      <h4>The healing powers of Hemp and Honey can:</h4>
       <ul>
         <li>Reduce anxiety and stress</li>
         <li>Help with sleep</li>
@@ -44,7 +44,7 @@
       <h2>No Artificial Ingredients</h2>
       <h2>Nut Free</h2>
       <hr class="break">
-      <p>Find Helper Honey at these fine retailers:</p>
+      <h4>Find Helper Honey at these fine retailers:</h4>
       <ul>
         <li>New Seasons</li>
         <li>amazon.com</li>
@@ -54,6 +54,7 @@
 
     <section class="third-O">
       <h3>Organically grown and cultivated in Oregon's Willamette Valley</h3>
+      <h4 class="contact">For orders contact:<br/>beestieshop&#64;gmail&#46;com</h4>
       <img src="images/honey-sticks-in-the-rain.jpg" alt="packaged CBD honey sticks" class="honey-sticks">
     </section>
     <!-- end S3. -->

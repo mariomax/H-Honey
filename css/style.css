@@ -16,15 +16,17 @@ body h2 {
   color: #202020;
   font-family: rosewood-std-fill, serif;
   font-size: 3rem;
-  padding: 1rem 0 1.5rem;
+  padding: 1.5rem 0 1.5rem;
 }
 body h2 {
   color: #9D6A0B;
   font-size: 1.5rem;
+  line-height: 1.2;
   padding: 0.5rem;
   text-align: center;
 }
 body h3,
+body h4,
 body p,
 body a,
 body li,
@@ -33,9 +35,21 @@ body figcaption {
   font-family: "Ropa Sans", serif;
 }
 body h3 {
+  color: #202020;
   font-size: 1.5rem;
+  line-height: 1.1;
   padding: 0.5rem 0.5rem 1.5rem;
   text-align: center;
+}
+body h4 {
+  color: #202020;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+}
+body h4.contact {
+  color: #9D6A0B;
+  padding-bottom: 2rem;
 }
 body hr.break {
   border: 0;
@@ -160,7 +174,7 @@ body footer a {
   color: #FFF;
 }
 body footer a:hover {
-  color: #ECEBE9;
+  color: #202020;
   text-decoration: underline;
 }
 @media (min-width: 768px) {
@@ -234,9 +248,9 @@ body footer a:hover {
   }
   body header img.inline-logo {
     display: block;
-    padding: 3rem;
+    padding: 4rem 3rem;
     height: auto;
-    max-width: 75%;
+    max-width: 65%;
   }
   body main {
     grid-template-areas: "first second" "first third";
@@ -244,7 +258,7 @@ body footer a:hover {
   body main .first-O {
     -ms-flex-item-align: start;
     align-self: flex-start;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
   }
   body main .third-O img.honey-sticks {
     max-width: 30vw;
