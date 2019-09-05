@@ -81,6 +81,7 @@ body {
       max-width: 75%;
       height: auto;
     }
+
     img.inline-logo {
       display: none;
     }
@@ -159,7 +160,9 @@ body {
       -ms-flex-pack: justify;
       justify-content: space-between;
       -ms-flex-line-pack: center;
-      align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       padding: 2rem;
     }
 
@@ -211,37 +214,39 @@ body {
       padding: 2rem 1rem;
 
       section {
-        padding: 0; 
+        padding: 0;
 
         ul {
           padding: .5rem 20% 1rem;
         }
       }
-      
+
       .first-O {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         grid-area: first;
+
         img.honey-logo {
           height: auto;
           max-width: 30vw;
         }
       }
-      
+
       .second-O {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         grid-area: second;
       }
-      
+
       .third-O {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         grid-area: third;
         padding-top: 2rem;
+
         img.honey-sticks {
           border-radius: 5px;
           height: auto;
@@ -251,11 +256,15 @@ body {
     }
 
     footer {
-      flex-direction: row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
 
       .social {
         padding: 1rem;
       }
+
       .footer-copy {
         padding: 1rem;
       }
@@ -273,6 +282,7 @@ body {
       img.block-logo {
         display: none;
       }
+
       img.inline-logo {
         display: block;
         padding: 3rem;
@@ -280,24 +290,30 @@ body {
         max-width: 75%;
       }
     }
+
     main {
       grid-template-areas:
-      "first second"
-      "first third";
+        "first second"
+        "first third";
+
       .first-O {
-        align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
         padding-top: 4rem;
       }
+
       .third-O {
         img.honey-sticks {
           max-width: 30vw;
         }
       }
     }
+
     footer {
       .footer-copy p {
         text-align: left;
       }
+
       .footer-copy a {
         padding: 0;
       }

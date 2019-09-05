@@ -138,6 +138,8 @@ body footer .social {
   -ms-flex-pack: justify;
   justify-content: space-between;
   -ms-flex-line-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 2rem;
 }
@@ -211,6 +213,9 @@ body footer a:hover {
     max-width: 70vw;
   }
   body footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
   }
   body footer .social {
@@ -237,6 +242,7 @@ body footer a:hover {
     grid-template-areas: "first second" "first third";
   }
   body main .first-O {
+    -ms-flex-item-align: start;
     align-self: flex-start;
     padding-top: 4rem;
   }
