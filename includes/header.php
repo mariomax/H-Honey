@@ -1,0 +1,2 @@
+<img src="images/hh-title-block-white.png" alt="Helper Honey title" title="Helper Honey" class="block-logo">
+<img src="images/hh-title-inline-white.png" alt="Helper Honey title" title="Helper Honey" class="inline-logo">
