@@ -128,6 +128,7 @@ body {
       }
 
       img.honey-sticks {
+        display: block;
         height: auto;
         max-width: 100vw;
       }
@@ -210,6 +211,7 @@ body {
   }
 }
 
+// TABLET ============================================================
 @media (min-width: 768px) {
   body {
     h1 {
@@ -269,6 +271,10 @@ body {
           height: auto;
           max-width: 70vw;
         }
+
+        img:first-of-type {
+          margin-bottom: 2rem;
+        }
       }
     }
 
@@ -293,6 +299,7 @@ body {
   }
 }
 
+// LAPTOP ============================================================
 @media (min-width: 1024px) {
   body {
     header {
@@ -311,7 +318,7 @@ body {
     main {
       grid-template-areas:
         "first second"
-        "first third";
+        "third third";
 
       .first-O {
         -ms-flex-item-align: start;
@@ -320,8 +327,26 @@ body {
       }
 
       .third-O {
-        img.honey-sticks {
-          max-width: 30vw;
+        .image-box {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+          margin-bottom: 2rem;
+
+          img.honey-sticks {
+            margin-bottom: 0;
+            max-width: 35vw;
+          }
+
+          img:first-of-type {
+            margin-right: 4rem;
+          }
         }
       }
     }

@@ -55,7 +55,10 @@
     <section class="third-O">
       <h3>Organically grown and cultivated in Oregon's Willamette Valley</h3>
       <h4 class="contact">For orders contact:<br/>beestieshop&#64;gmail&#46;com</h4>
-      <img src="images/honey-sticks-in-the-rain.jpg" alt="packaged CBD honey sticks" class="honey-sticks">
+      <div class="image-box">
+        <img src="images/4x5-hh-sticks.jpg" alt="CBD honey sticks" class="honey-sticks">
+        <img src="images/4x5-hh-bagged.jpg" alt="packaged CBD honey sticks" class="honey-sticks">
+      </div>
     </section>
     <!-- end S3. -->
 
